@@ -31,6 +31,4 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
     });
 });
 
-app.listen(3333, () => {
-    console.log('Olá, eu estou executando!');
-});
+app.listen(process.env.PORT || 3000);
