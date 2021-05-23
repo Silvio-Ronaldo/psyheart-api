@@ -27,7 +27,10 @@ class AuthenticateUserService {
             throw new AppError('Incorrect email/password combination', 401);
         }
 
-        const passwordMatched = await compare(password, user.password);
+        const passwordMatched = await compare(
+            password,
+            user.password as string,
+        );
 
         if (!passwordMatched) {
             throw new AppError('Incorrect email/password combination', 401);
