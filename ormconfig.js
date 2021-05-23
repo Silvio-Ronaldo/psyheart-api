@@ -1,5 +1,6 @@
-module.exports = {
+export default {
     "type": process.env.DATABASE_TYPE,
+    "url": process.env.DATABASE_URL,
     "host": process.env.DATABASE_HOST,
     "port": Number(process.env.DATABASE_PORT),
     "username": process.env.DATABASE_USERNAME,
