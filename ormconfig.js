@@ -11,9 +11,9 @@ module.exports = {
         "./dist/models/*.js"
     ],
     migrations: [
-        "./dist/database/migrations/*.js"
+        "./dist/shared/infra/typeorm/migrations/*.js"
     ],
     cli: {
-        "migrationsDir": "./src/database/migrations"
+        "migrationsDir": "./src/shared/infra/typeorm/migrations"
     }
 }
