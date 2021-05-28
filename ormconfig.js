@@ -8,7 +8,7 @@ module.exports = {
       },
     },
     entities: [
-        "./dist/models/*.js"
+        "./dist/modules/**/infra/typeorm/entities/*.js"
     ],
     migrations: [
         "./dist/shared/infra/typeorm/migrations/*.js"
