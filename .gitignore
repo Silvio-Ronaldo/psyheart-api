@@ -3,6 +3,8 @@ dist
 .vscode
 temp/
 .env
+variables.*
+secrets.*
 
 tmp/*
 !tmp/.gitkeep

@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+import { config } from 'dotenv';
 import 'reflect-metadata';
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
@@ -9,8 +9,9 @@ import AppError from '@shared/errors/AppError';
 import routes from './routes';
 
 import '@shared/infra/typeorm';
+import '@shared/container';
 
-dotenv.config();
+config();
 
 const app = express();
 
@@ -29,7 +30,7 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
 
     return response.status(500).json({
         status: 'error',
-        message: 'Internal Server Error',
+        message: `Internal Server Error`,
     });
 });
 
