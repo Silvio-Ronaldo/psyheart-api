@@ -2,12 +2,12 @@ import path from 'path';
 import fs from 'fs';
 import { injectable, inject } from 'tsyringe';
 
-import User from '@modules/users/infra/typeorm/entities/User';
-import IUsersRepository from '@modules/users/repositories/IUsersRepository';
+import User from '../infra/typeorm/entities/User';
+import IUsersRepository from '../repositories/IUsersRepository';
 
-import AppError from '@shared/errors/AppError';
+import AppError from '../../../shared/errors/AppError';
 
-import uploadConfig from '@config/upload';
+import uploadConfig from '../../../config/upload';
 
 interface IRequestDTO {
     user_id: string;

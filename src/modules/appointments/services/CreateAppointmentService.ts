@@ -1,11 +1,11 @@
 import { startOfHour } from 'date-fns';
 import { injectable, inject } from 'tsyringe';
 
-import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
+import IAppointmentsRepository from '../repositories/IAppointmentsRepository';
 
-import Appointment from '@modules/appointments/infra/typeorm/entities/Appointment';
+import Appointment from '../infra/typeorm/entities/Appointment';
 
-import AppError from '@shared/errors/AppError';
+import AppError from '../../../shared/errors/AppError';
 
 interface IRequestDTO {
     provider_id: string;
