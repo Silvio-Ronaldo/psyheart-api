@@ -1,6 +1,7 @@
 import { Secret } from 'jsonwebtoken';
 
-import secrets from './secrets';
+// In development
+// import secrets from './secrets';
 
 type JWTProps = {
     secret: Secret;
@@ -9,7 +10,7 @@ type JWTProps = {
 
 export default {
     jwt: {
-        secret: secrets.SECRET,
-        expiresIn: secrets.EXPIRES,
+        secret: process.env.SECRET,
+        expiresIn: process.env.EXPIRES,
     } as JWTProps,
 };
