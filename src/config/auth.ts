@@ -1,8 +1,5 @@
 import { Secret } from 'jsonwebtoken';
 
-// In development
-// import secrets from './secrets';
-
 type JWTProps = {
     secret: Secret;
     expiresIn: string;
