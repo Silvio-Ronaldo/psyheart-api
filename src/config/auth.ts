@@ -1,4 +1,7 @@
+import { config } from 'dotenv';
 import { Secret } from 'jsonwebtoken';
+
+config();
 
 type JWTProps = {
     secret: Secret;

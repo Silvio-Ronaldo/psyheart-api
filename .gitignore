@@ -1,6 +1,6 @@
+coverage
 node_modules
 dist
-coverage
 .vscode
 temp/
 .env
