@@ -1,5 +1,6 @@
 node_modules
 dist
+coverage
 .vscode
 temp/
 .env
@@ -8,3 +9,4 @@ secrets.*
 
 tmp/*
 !tmp/.gitkeep
+
