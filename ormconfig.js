@@ -19,6 +19,7 @@ module.exports = [
         }
     },
     {
+        name: 'mongo',
         type: "mongodb",
         url: process.env.DATABASE_DEV_MONGO,
         useUnifiedTopology: true,
