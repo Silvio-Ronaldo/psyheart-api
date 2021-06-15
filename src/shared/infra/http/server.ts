@@ -1,4 +1,4 @@
-import { config } from 'dotenv';
+import 'dotenv/config';
 import 'reflect-metadata';
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
@@ -11,8 +11,6 @@ import routes from './routes';
 
 import '../typeorm';
 import '../../container';
-
-config();
 
 const app = express();
 
