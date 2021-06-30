@@ -9,22 +9,22 @@ module.exports = [
             },
         },
         entities: [
-            "./src/modules/**/infra/typeorm/entities/*.ts"
+            "./dist/modules/**/infra/typeorm/entities/*.js"
         ],
         migrations: [
-            "./src/shared/infra/typeorm/migrations/*.ts"
+            "./dist/shared/infra/typeorm/migrations/*.js"
         ],
         cli: {
             "migrationsDir": "./src/shared/infra/typeorm/migrations"
         }
     },
     {
-        name: 'mongo',
+        name: "mongo",
         type: "mongodb",
         url: process.env.DATABASE_DEV_MONGO,
         useUnifiedTopology: true,
         entities: [
-            "./src/modules/**/infra/typeorm/schemas/*.ts"
+            "./dist/modules/**/infra/typeorm/schemas/*.js"
         ]
     }
 ]
