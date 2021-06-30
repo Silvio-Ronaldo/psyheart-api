@@ -6,7 +6,6 @@ temp/
 variables.*
 secrets.*
 coverage
-ormconfig.js
 
 tmp/*
 !tmp/.gitkeep
