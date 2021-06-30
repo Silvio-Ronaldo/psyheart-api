@@ -10,7 +10,7 @@ type JWTProps = {
 
 export default {
     jwt: {
-        secret: process.env.SECRET,
+        secret: process.env.SECRET || 'default',
         expiresIn: process.env.EXPIRES,
     } as JWTProps,
 };
