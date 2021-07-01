@@ -21,7 +21,7 @@ module.exports = [
     {
         name: "mongo",
         type: "mongodb",
-        url: process.env.MONGO_URL,
+        url: process.env.DATABASE_DEV_MONGO,
         useUnifiedTopology: true,
         entities: [
             "./dist/modules/**/infra/typeorm/schemas/*.js"
