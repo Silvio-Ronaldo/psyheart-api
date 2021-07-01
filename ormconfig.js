@@ -17,5 +17,14 @@ module.exports = [
         cli: {
             "migrationsDir": "./src/shared/infra/typeorm/migrations"
         }
+    },
+    {
+        name: "mongo",
+        type: "mongodb",
+        url: process.env.MONGO_URL,
+        useUnifiedTopology: true,
+        entities: [
+            "./dist/modules/**/infra/typeorm/schemas/*.js"
+        ]
     }
 ]
