@@ -42,11 +42,21 @@
   <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-back#%EF%B8%8F-technologies">Technologies</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-back#-author">Author</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-back#%EF%B8%8F-license">License</a></li>
-</ul>
+</ul></br>
 
 
 <h2>📌 Status</h2>
-<h4 align="center">🚧 PsyHeart API is completed. 🚀</h4>
+<h4 align="center">🚧 PsyHeart API is completed. 🚀</h4></br>
+
+
+
+<h2>🎯 Concepts</h2>
+<p>The PsyHeart API was developed by applying some of the most important concepts of backend development.</p>
+<p>Specifically, it is a Rest API, responsible for managing business rules, receiving requests and returning data responses.</p>
+<p>It was created using some development standards like S.O.L.I.D and Test Driven Development, the famous TDD. As a consequence of SOLID, I've also used dependency inversion to decouple services from ORM repositories and dependency injection with tsyringe, in addition to providers to implement the single responsibility principle.</p>
+<p>To structure the files and directories in a compact way and provide easy navigation and maintenance, I used the principles of DDD (Domain Driven Design).</p>
+<p>For security, the API uses JWT with BCryptJS hash. In ORM, I used TypeORM with node-postgres driver. For specific features of notifications and caching, I used mongodb and Redis, respectively. All run in a Docker container on the local machine.</p></br>
+
 
 
 <h2>🛡️ Technologies</h2>
@@ -60,6 +70,7 @@
   <li><a href="https://jestjs.io/pt-BR/">Jest</a></li>
   
   <li><a href="https://typeorm.io/#/">TypeORM</a></li>
+  <li><a href="https://www.docker.com">Docker</a></li>
   <li><a href="https://node-postgres.com">Node Postgres</a></li>
   <li><a href="https://www.mongodb.com/pt-br">MongoDB</a></li>
   <li><a href="https://redis.io">Redis</a></li>
@@ -75,7 +86,7 @@
   <li><a href="https://babeljs.io">Babel</a></li>
   <li><a href="https://eslint.org">ESLint</a></li>
   <li><a href="https://prettier.io">Prettier</a></li>
-</ul>
+</ul></br>
 
 
 
@@ -88,7 +99,7 @@
 <p>Leave your star, fork the project or open a pull request ❤️</p>
 <p>Contact me on social networks: </p>
 <p><a href="https://twitter.com/sivirinoo"><img src="https://img.shields.io/twitter/follow/sivirinoo?style=social" alt="Silvio Ronaldo's Twitter" /></a>
-<a href="https://br.linkedin.com/in/silvio-ronaldo77"><img src="https://img.shields.io/badge/-Silvio-blue?style=flat&logo=Linkedin&logoColor=white" alt="Silvio Ronaldo's LinkedIn" /></a></p>
+<a href="https://br.linkedin.com/in/silvio-ronaldo77"><img src="https://img.shields.io/badge/-Silvio-blue?style=flat&logo=Linkedin&logoColor=white" alt="Silvio Ronaldo's LinkedIn" /></a></p></br>
 
 
 <h2>⚖️ License</h2>
