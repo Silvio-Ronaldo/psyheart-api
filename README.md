@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./assets/psyheart-logo.svg" alt="PsyHeart Logo" height=200 width=400 />
+  <img src="./assets/psyheart-api-logo.svg" alt="PsyHeart Logo" height=200 width=400 />
 </h1>
 
 <p align="center">
