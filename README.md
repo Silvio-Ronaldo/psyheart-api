@@ -10,7 +10,7 @@
   </strong></br>Practical project for study</br>Inspired by Rocketseat's GoBarber</br>
 
   <p align="center">
-    Access the repository of the web version of PsyHeart at: https://github.com/Silvio-Ronaldo/PsyHeart-web</br>
+    Access the repository of the web version of PsyHeart at: https://github.com/Silvio-Ronaldo/psyheart-web</br>
     Access the repository for the mobile version of PsyHeart at: https://github.com/Silvio-Ronaldo/psyheart-mobile
   </p></br>
 </p>
