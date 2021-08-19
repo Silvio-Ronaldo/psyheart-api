@@ -19,14 +19,14 @@
   <a href="./LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="PsyHeart API is released under the MIT license" />
   </a>
-  <a href="https://GitHub.com/Silvio-Ronaldo/PsyHeart-back/graphs/commit-activity">
+  <a href="https://GitHub.com/Silvio-Ronaldo/psyheart-api/graphs/commit-activity">
     <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen" alt="PsyHeart API is currently maintained by Silvio Ronaldo" />
   </a>
-  <a href="https://GitHub.com/Silvio-Ronaldo/PsyHeart-back/network/">
-    <img src="https://img.shields.io/github/forks/Silvio-Ronaldo/PsyHeart-back?style=social" alt="This is the number of forks in this repository" />
+  <a href="https://GitHub.com/Silvio-Ronaldo/psyheart-api/network/">
+    <img src="https://img.shields.io/github/forks/Silvio-Ronaldo/psyheart-api?style=social" alt="This is the number of forks in this repository" />
   </a>
-  <a href="https://GitHub.com/Silvio-Ronaldo/PsyHeart-back/stargazers/">
-    <img src="https://img.shields.io/github/stars/Silvio-Ronaldo/PsyHeart-back?style=social" alt="This is the number of stars in this repository" />
+  <a href="https://GitHub.com/Silvio-Ronaldo/psyheart-api/stargazers/">
+    <img src="https://img.shields.io/github/stars/Silvio-Ronaldo/psyheart-api?style=social" alt="This is the number of stars in this repository" />
   </a>
   <a href="https://github.com/Naereen/badges">
     <img src="https://img.shields.io/badge/badge-awesome-brightgreen" alt="Badges are awesome" />
@@ -38,11 +38,11 @@
   📋 Table of contents
 </h2>
 <ul>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-back#-status">Status</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-back#-concepts">Concepts</a></li> 
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-back#%EF%B8%8F-technologies">Technologies</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-back#-author">Author</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/PsyHeart-back#%EF%B8%8F-license">License</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-api#-status">Status</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-api#-concepts">Concepts</a></li> 
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-api#%EF%B8%8F-technologies">Technologies</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-api#-author">Author</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/psyheart-api#%EF%B8%8F-license">License</a></li>
 </ul></br>
 
 
