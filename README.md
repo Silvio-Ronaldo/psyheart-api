@@ -7,7 +7,7 @@
     🧠 PsyHeart application API ❤️</br>
     PsyHeart is a platform that allows you to schedule an online session with a psychologist.</br>
     🧠 * Keep your mind aligned with your heart! * ❤️
-  </strong></br>Practical project for study</br>Inspired by Rocketseat's GoBarber</br>
+  </strong></br>Practical project for study</br>
 
   <p align="center">
     Access the repository of the web version of PsyHeart at: https://github.com/Silvio-Ronaldo/psyheart-web</br>
